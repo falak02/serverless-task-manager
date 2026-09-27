@@ -14,6 +14,10 @@ I built this project to understand how a frontend application can communicate wi
 - Add due dates
 - Search and filter tasks
 
+## Demo
+
+[Watch the Serverless Task Manager demo](demo/Serverless_taskManager.mp4)
+
 ## How it works
 
 The application follows this flow:
