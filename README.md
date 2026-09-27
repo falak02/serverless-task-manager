@@ -16,14 +16,18 @@ I built this project to understand how a frontend application can communicate wi
 
 ## Demo
 
-[Watch the Serverless Task Manager demo](demo/Serverless_taskManager.mp4)
+🎥 Project Demo: [View / Download Demo Video](demo/Serverless_taskManager.mp4)
+
+The demo shows the complete task workflow:
+- Add a task
+- Edit a task
+- Mark a task as completed
+- Delete a task
 
 ## How it works
 
 The application follows this flow:
-
 React → API Gateway → Lambda → DynamoDB
-
 The React frontend sends requests to Amazon API Gateway. API Gateway connects the requests to AWS Lambda functions, which handle the task operations. The task data is stored in an Amazon DynamoDB table.
 
 ## AWS Services Used
@@ -45,7 +49,6 @@ The React frontend sends requests to Amazon API Gateway. API Gateway connects th
 ## Database
 
 The project uses a DynamoDB table called `Tasks`.
-
 Each task contains information such as:
 
 - Task ID
@@ -53,10 +56,10 @@ Each task contains information such as:
 - Priority
 - Due date
 - Completion status
+
 ## What I Learned
 
 Building this project helped me understand how different AWS services work together in a real application.
-
 - Creating and testing AWS Lambda functions
 - Using API Gateway to create REST API routes
 - Storing and retrieving data from DynamoDB
